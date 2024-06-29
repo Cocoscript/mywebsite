@@ -1,0 +1,32 @@
+---
+#Titre de la page à afficher
+title: "Welcome to my website !"
+#Image à afficher
+image: "images/me_round.png"
+#Liens utiles
+links:
+    #Linkedin
+  - label: '<i class="fab fa-linkedin fa-lg"></i>'
+    url: "https://www.linkedin.com/in/coralie-le-picard/"
+    #Github
+  - label: '<i class="fab fa-github fa-lg"></i>'
+    url: "https://github.com/Cocoscript"
+    #Researchgate
+  - label: "RG"
+    url: "https://www.researchgate.net/profile/Coralie-Le-Picard"
+    #orcID
+  - label: "ID"
+    url: "https://orcid.org/0009-0000-5928-7681"
+#Sortie
+output:
+  #Utilisation du template "trestles" du package "postcards"
+  postcards::trestles
+#Article distill
+site: distill::distill_website
+---
+
+This website is under construction.. 
+
+The idea is to present my work :)
+
+
